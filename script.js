@@ -30,3 +30,11 @@ function finalizar() {
         resultado.innerHTML += `<p>A média dos valores é ${soma/lista.length}</p>`
     }
 }
+
+function limparLista() {
+    let lista = document.getElementById('lista')
+    lista.innerHTML = ''
+    lista.style.width = '150px'
+    let resultado = document.getElementById('resultado')
+    resultado.innerHTML = ''
+}

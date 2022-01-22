@@ -34,3 +34,7 @@ input#adicionar {
 input#finalizar {
     margin-top: 10px;
 }
+
+select#lista {
+    width: 150px;
+}
