@@ -37,4 +37,5 @@ function limparLista() {
     lista.style.width = '150px'
     let resultado = document.getElementById('resultado')
     resultado.innerHTML = ''
+    
 }
