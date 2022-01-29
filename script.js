@@ -32,9 +32,10 @@ function finalizar() {
 }
 
 function limparLista() {
-    let lista = document.getElementById('lista')
-    lista.innerHTML = ''
-    lista.style.width = '150px'
+    lista = []
+    let lista2 = document.getElementById('lista')
+    lista2.innerHTML = ''
+    lista2.style.width = '150px'
     let resultado = document.getElementById('resultado')
     resultado.innerHTML = ''
     
